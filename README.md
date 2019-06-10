@@ -16,6 +16,7 @@ user/
     subscriber/	# message subscribers
     proto/	# proto generated code
     main.go	# service main
+    user.mu	# mu definition
     README.md	# readme
 ```
 
