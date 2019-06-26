@@ -2,6 +2,8 @@
 
 This is a place for micro services
 
+They currently reside at [github.com/microhq](https://github.com/microhq) but we'll move them soon
+
 ## Structure
 
 Service and repo organisation should be as follows (example name used):
