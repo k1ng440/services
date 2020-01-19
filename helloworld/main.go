@@ -3,9 +3,9 @@ package main
 import (
 	"github.com/micro/go-micro"
 	"github.com/micro/go-micro/util/log"
-	"helloworld/handler"
+	"github.com/micro/services/helloworld/handler"
 
-	helloworld "helloworld/proto/helloworld"
+	helloworld "github.com/micro/services/helloworld/proto/helloworld"
 )
 
 func main() {

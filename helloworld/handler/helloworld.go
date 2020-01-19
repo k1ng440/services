@@ -5,7 +5,7 @@ import (
 
 	"github.com/micro/go-micro/util/log"
 
-	helloworld "helloworld/proto/helloworld"
+	helloworld "github.com/micro/services/helloworld/proto/helloworld"
 )
 
 type Helloworld struct{}
@@ -16,4 +16,3 @@ func (e *Helloworld) Call(ctx context.Context, req *helloworld.Request, rsp *hel
 	rsp.Msg = "Hello " + req.Name
 	return nil
 }
-

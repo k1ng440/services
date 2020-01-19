@@ -5,7 +5,7 @@ This is the Helloworld service
 Generated with
 
 ```
-micro new helloworld --namespace=go.micro --type=srv
+micro new github.com/micro/services/helloworld --namespace=go.micro --type=srv
 ```
 
 ## Getting Started
